@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Mendeklarasikan karakter encoding yang digunakan di halaman ini -->
+    <meta charset="UTF-8">
+    <!-- Menyeting viewport untuk responsif pada perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman yang akan tampil pada tab browser -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Style CSS yang digunakan untuk mendesain tampilan elemen halaman -->
+    <style>
+        /* Kotak luar yang membungkus kotak-kotak dalam, dengan desain responsif */
+        .kotak-luar{
+            background-color: rgb(227, 255, 246); /* Warna latar belakang */
+            margin: auto; /* Margin otomatis untuk tengah-tengah layar */
+            display: flex; /* Menggunakan flexbox untuk tata letak */
+            width: 70%; /* Lebar kotak luar 70% dari lebar layar */
+            padding: 13px; /* Padding di dalam kotak luar */
+            border-radius: 10px; /* Sudut yang membulat */
+            gap: 20px; /* Jarak antar elemen dalam kotak luar */
+        }
+        /* Kotak dalam yang diletakkan di dalam kotak luar */
+        .kotak-dalam{
+            float: left; /* Menempatkan kotak dalam secara horizontal */
+            margin: 8px 0; /* Margin vertikal untuk pemisahan antar kotak dalam */
+        }
+        /* Styling untuk paragraf */
+        p{
+            font-family: system-ui; /* Menggunakan font system default */
+        }
+        /* Styling untuk judul dengan huruf miring (italic) */
+        h5{
+            font-style: italic; /* Mengatur teks menjadi miring */
+        }
+        /* Styling untuk judul utama dengan font sans-serif */
+        h2{
+            font-family: sans-serif; /* Menggunakan font sans-serif */
+        }
+    </style>
+
+    <!-- Kotak luar yang berisi beberapa kotak dalam -->
+    <div class="kotak-luar">
+        <!-- Kotak dalam pertama dengan konten teks -->
+        <div class="kotak-dalam">
+            <h5>Lorem, ipsum.</h5> <!-- Judul kecil dengan gaya italic -->
+            <h2>Lorem, ipsum.</h2> <!-- Judul utama -->
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam sunt saepe modi ipsam! Fuga molestiae, earum magni, eius quidem quod quis optio est distinctio alias rerum eligendi voluptates sequi placeat.</p> <!-- Paragraf dengan teks deskriptif -->
+        </div>
+
+        <!-- Kotak dalam kedua dengan konten teks -->
+        <div class="kotak-dalam">
+            <h5>Lorem, ipsum.</h5> <!-- Judul kecil dengan gaya italic -->
+            <h2>Lorem, ipsum.</h2> <!-- Judul utama -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias laudantium excepturi adipisci porro. Quisquam iusto, ad, laudantium fuga rem excepturi assumenda, harum quaerat nam expedita nisi quia! Tempora illo exercitationem labore ipsam placeat?</p> <!-- Paragraf dengan teks deskriptif -->
+        </div>
+
+        <!-- Kotak dalam ketiga dengan konten teks -->
+        <div class="kotak-dalam">
+            <h5>Lorem, ipsum.</h5> <!-- Judul kecil dengan gaya italic -->
+            <h2>Lorem, ipsum.</h2> <!-- Judul utama -->
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas magnam perspiciatis sequi, consequatur amet odit maiores. Magnam alias veritatis a reiciendis rerum. Numquam libero dolor, quibusdam quam nesciunt earum reprehenderit iste!</p> <!-- Paragraf dengan teks deskriptif -->
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Menentukan karakter encoding untuk halaman -->
+    <meta charset="UTF-8">
+    <!-- Menyeting viewport untuk responsif pada perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Mengimpor Bootstrap CSS untuk desain responsif dan elemen UI -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- Judul halaman yang akan tampil pada tab browser -->
+    <title>Document</title>
+    
+    <!-- Mengimpor file CSS eksternal -->
+    <link rel="stylesheet" href="Tugas 3.css">
+</head>
+<body>
+    <!-- Container utama untuk seluruh konten -->
+    <div class="container">
+        <!-- Header dengan logo dan menu navigasi -->
+        <div class="header">
+            <!-- Logo PENS dengan tautan ke website resmi -->
+            <a href="https://www.pens.ac.id/" target="_blank">
+                <img src="image/logo-PENS.png" alt="Logo PENS">
+            </a>
+            
+            <!-- Menu navigasi dengan tautan ke berbagai halaman -->
+            <nav>
+                <ul>
+                    <li><a href="#" class="button">Home</a></li>
+                    <li><a href="#" class="button">Features</a></li>
+                    <li><a href="#" class="button">Pages</a></li>
+                    <li><a href="#" class="button">Portofolio</a></li>
+                    <li><a href="#" class="button">Blog</a></li>
+                    <li><a href="#" class="button">Shop</a></li>
+                    <li><a href="#" class="button">Shortcodes</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Kolom berita untuk menampilkan beberapa berita -->
+        <div class="kolom-berita">
+            <!-- Berita pertama -->
+            <div class="berita">
+                <img src="image/berita-1.jpg" alt="Pelatih timnas Indonesia, Shin Tae-yong">
+                <!-- Tautan untuk artikel berita -->
+                <a href="https://www.msn.com/id-id/berita/other/media-vietnam-sepakat-dengan-shin-tae-yong-usai-timnas-indonesia-imbangi-arab-saudi-dan-australia/ar-AA1qrLSz?ocid=BingNewsSerp" target="_blank">
+                    <h3>Media Vietnam Sepakat dengan Shin Tae-yong Usai Timnas Indonesia Imbangi Arab Saudi dan Australia</h3>
+                </a>
+                <!-- Info tanggal dan jumlah komentar -->
+                <div class="tgl-komen">
+                    <img src="image/Picture4.png" alt="kalender">
+                    <p>12th Sept 2024</p>
+                    <img src="image/Picture3.png" alt="komentar">
+                    <p>50</p>
+                </div>
+                <!-- Deskripsi berita -->
+                <p>Keberhasilan Indonesia meraup dua poin dari dua laga awal mendapat sorotan dari media Vietnam, Znews.vn. Menurut Znews, dua hasil imbang menjadi tolak ukur yang akurat bahwa Indonesia lebih baik dari Vietnam dan Thailand. Indonesia disebut akan semakin kuat dengan kehadiran dua pemain keturunan baru Mees Hilgers dan Eliano Reijnders.</p>
+            </div>
+
+            <!-- Berita kedua -->
+            <div class="berita">
+                <img src="image/berita-2.jpg" alt="Takumi Minamimo">
+                <a href="https://www.msn.com/id-id/berita/other/pemain-jepang-takumi-minamimo-sebut-2-tim-yang-diimbangi-timnas-indonesia-jadi-lawan-sulit-di-kualifikasi-piala-dunia-2026/ar-AA1qsJBl?ocid=BingNewsSerp" target="_blank">
+                    <h3>Pemain Jepang Takumi Minamimo Sebut 2 Tim yang Diimbangi Timnas Indonesia Jadi Lawan Sulit di Kualifikasi Piala Dunia 2026</h3>
+                </a>
+                <div class="tgl-komen">
+                    <img src="image/Picture4.png" alt="kalender">
+                    <p>12th Sept 2024</p>
+                    <img src="image/Picture3.png" alt="komentar">
+                    <p>45</p>
+                </div>
+                <p>"Dua pertandingan berturut-turut berikutnya lebih sulit dan melawan lawan yang lebih kuat," ujar Minamino dikutip dari Nikkan Sports. "Jadi saya akan mempererat tekad dan melakuakan yang terbaik saat kembali ke tim," ujarnya. Arab Saudi dan Australia ada dua tim yang diimbangi timnas Indonesia.</p>
+            </div>
+
+            <!-- Berita ketiga -->
+            <div class="berita">
+                <img src="image/berita-3.jpg" alt="fans Timnas Indonesia">
+                <a href="https://www.msn.com/id-id/berita/other/media-belanda-ikut-soroti-fans-timnas-indonesia-yang-nyanyikan-nama-maarten-paes-saat-imbangi-australia/ar-AA1qu2eJ?ocid=BingNewsSerp" target="_blank">
+                    <h3>Media Belanda Ikut Soroti Fans Timnas Indonesia yang Nyanyikan Nama Maarten Paes saat Imbangi Australia</h3>
+                </a>
+                <div class="tgl-komen">
+                    <img src="image/Picture4.png" alt="kalender">
+                    <p>13th Sept 2024</p>
+                    <img src="image/Picture3.png" alt="komentar">
+                    <p>12</p>
+                </div>
+                <p>Sorotan lain dari media asing adalah aksi para pendukung Timnas Indonesia di tribun. Sepanjang pertandingan, para pendukung Timnas Indonesia menyanyikan nama kiper andalan mereka, Maarten Paes.</p>
+            </div>
+
+            <!-- Berita keempat -->
+            <div id="berita-kanan" class="berita">
+                <img src="image/berita-4.jpg" alt="Timnas Inonesia">
+                <a href="https://bola.kompas.com/read/2024/09/12/17485568/pengamat-ingatkan-timnas-indonesia-soal-kreativitas-serangan-dan-minim-peluang" target="_blank">
+                    <h3>Pengamat Ingatkan Timnas Indonesia soal Kreativitas Serangan dan Minim Peluang</h3>
+                </a>
+                <div class="tgl-komen">
+                    <img src="image/Picture4.png" alt="kalender">
+                    <p>12th Sept 2024</p>
+                    <img src="image/Picture3.png" alt="komentar">
+                    <p>45</p>
+                </div>
+                <p>Saat ini, timnas Indonesia tengah mendulang banyak pujian seusai menahan imbang dua tim langganan Piala Dunia, Arab Saudi dan Australia, pada laga sebelumnya. Laga melawan Arab Saudi yang dinakhodai pelatih Roberto Mancini berakhir 1-1 setelah Tim Garuda mencetak gol terlebih dahulu.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

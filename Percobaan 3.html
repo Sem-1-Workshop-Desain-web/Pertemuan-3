@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Menentukan karakter encoding untuk halaman -->
+    <meta charset="UTF-8">
+    <!-- Menyeting viewport untuk responsif pada perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman yang akan tampil pada tab browser -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- Style CSS yang digunakan untuk mendesain tampilan halaman -->
+    <style>
+        /* Styling untuk elemen harga */
+        .harga{
+            color:#33324e; /* Warna teks untuk harga */
+        }
+        /* Kotak utama yang membungkus semua item harga */
+        .harga-main{
+            width: 1270px; /* Lebar kotak utama */
+            margin: auto; /* Margin otomatis untuk tengah-tengah layar */
+        }
+        /* Styling untuk judul harga */
+        .harga-title{
+            text-align: center; /* Menyusun judul agar berada di tengah */
+        }
+        /* Styling untuk setiap item harga */
+        .harga-item{
+            float:left; /* Mengatur item agar sejajar secara horizontal */
+            width: 300px; /* Lebar item harga */
+            margin: 0 30px; /* Jarak antar item */
+            border: 0.5px solid rgba(0,0,0,.1); /* Border item harga */
+            padding: 30px; /* Padding di dalam item */
+            border-radius:10px; /* Membulatkan sudut */
+        }
+        /* Styling untuk subtitle setiap item harga */
+        .harga-subtitle{
+            text-align: center; /* Menyusun subtitle agar berada di tengah */
+        }
+        /* Styling untuk deskripsi setiap item harga */
+        .harga-deskripsi{
+            text-align: center; /* Menyusun deskripsi agar berada di tengah */
+        }
+        /* Styling untuk elemen harga Rupiah */
+        .harga-rupiah{
+            text-align: center; /* Menyusun harga rupiah agar berada di tengah */
+            padding: 30px 0; /* Padding atas dan bawah */
+            border-top: solid 1px rgba(0,0,0,.1); /* Border atas */
+            border-bottom: solid 1px rgba(0,0,0,.1); /* Border bawah */
+        }
+        /* Styling untuk harga dalam format uang */
+        .harga-uang{
+            font-size: 30px; /* Ukuran font untuk harga uang */
+            color:#4353ff; /* Warna teks untuk harga uang */
+            font-weight: 700; /* Tebal font */
+        }
+        /* Styling untuk fitur setiap item harga */
+        .harga-fitur{
+            list-style: none; /* Menghilangkan bullets pada list */
+        }
+        /* Styling untuk tombol beli */
+        .harga-beli{
+            width: 100px; /* Lebar tombol beli */
+            height: 30px; /* Tinggi tombol beli */
+            margin-left: auto; /* Menyusun tombol beli agar berada di tengah */
+            margin-right: auto; /* Menyusun tombol beli agar berada di tengah */
+        }
+        /* Styling untuk tombol beli */
+        .harga-tombol_beli{
+            width: 100px; /* Lebar tombol beli */
+            height: 30px; /* Tinggi tombol beli */
+            background-color: rgb(18, 140, 161); /* Warna latar belakang tombol */
+            border-radius: 10px; /* Membulatkan sudut tombol */
+            border-width: 0; /* Menghilangkan border tombol */
+            color:white; /* Warna teks tombol */
+        }
+    </style>
+
+    <!-- Section untuk menampilkan harga layanan -->
+    <section id="harga" class="harga">
+        <h1 class="harga-title">Harga Layanan</h1>
+        <div class="harga-main">
+            <!-- Item harga pertama: Starter -->
+            <div class="harga-item">
+                <h3 class="harga-subtitle">
+                    Starter
+                </h3>
+                <p class="harga-deskripsi">
+                    harga termurah
+                </p>
+                <!-- Menampilkan harga dalam format rupiah -->
+                <div class="harga-rupiah">
+                    <span>Rp</span>
+                    <span class="harga-uang">340.000</span>
+                </div>
+                <!-- Fitur layanan -->
+                <ul class="harga-fitur">
+                    <li class="harga-fitur_item">
+                        2 website    
+                    </li>
+                    <li class="harga-fitur_item">
+                        30 GB storage
+                    </li>
+                    <li class="harga-fitur_item">
+                        Unlimited Badwidth
+                    </li>
+                </ul>
+                <!-- Tombol beli sekarang -->
+                <div class="harga-beli">
+                    <button class="harga-tombol_beli">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Item harga kedua: Personal -->
+            <div class="harga-item">
+                <h3 class="harga-subtitle">
+                    Personal
+                </h3>
+                <p class="harga-deskripsi">
+                    harga paling diminati
+                </p>
+                <div class="harga-rupiah">
+                    <span>Rp</span>
+                    <span class="harga-uang">340.000</span>
+                </div>
+                <!-- Fitur layanan -->
+                <ul class="harga-fitur">
+                    <li class="harga-fitur_item">
+                        2 website    
+                    </li>
+                    <li class="harga-fitur_item">
+                        30 GB storage
+                    </li>
+                    <li class="harga-fitur_item">
+                        Unlimited Badwidth
+                    </li>
+                </ul>
+                <div class="harga-beli">
+                    <button class="harga-tombol_beli">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Item harga ketiga: Ultimate -->
+            <div class="harga-item">
+                <h3 class="harga-subtitle">
+                    Ultimate
+                </h3>
+                <p class="harga-deskripsi">
+                    harga dengan fitur terlengkap
+                </p>
+                <div class="harga-rupiah">
+                    <span>Rp</span>
+                    <span class="harga-uang">340.000</span>
+                </div>
+                <!-- Fitur layanan -->
+                <ul class="harga-fitur">
+                    <li class="harga-fitur_item">
+                        3 website    
+                    </li>
+                    <li class="harga-fitur_item">
+                        60 GB storage
+                    </li>
+                    <li class="harga-fitur_item">
+                        Unlimited Badwidth
+                    </li>
+                </ul>
+                <div class="harga-beli">
+                    <button class="harga-tombol_beli">Beli Sekarang</button>
+                </div>
+            </div>
+
+            <!-- Clear float agar konten tampil rapi -->
+            <div style="clear:both;"></div>
+        </div>
+    </section>
+
+</body>
+</html>
